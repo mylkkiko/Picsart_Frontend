@@ -16,7 +16,7 @@ export const Home = () => {
         {
             id: 3,
             title: 'Team Directory',
-            path: '/team'
+            path: '/teamDirectory'
         },
         {
             id: 4,

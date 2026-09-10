@@ -4,6 +4,7 @@ import { Home } from './pages/Home'
 import { OnlineShop } from './pages/OnlineShop'
 import { NotFound } from './pages/NotFound'
 import { Timer } from './pages/Timer'
+import { TeamDirectory } from './pages/TeamDirectory'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path={'/'} element={<Home />} />
         <Route path={'/shop'} element={<OnlineShop />} />
         <Route path={'/timer'} element={<Timer />} />
+        <Route path={'/teamDirectory'} element={<TeamDirectory />} />
         <Route path={'*'} element={<NotFound />} />
       </Routes>
     </div>

@@ -22,3 +22,13 @@ export type CounterItem = {
     timeLeft: number,
     status: "running" | "finished" | "paused",
 }
+
+export type User = {
+    id: number, 
+    name: string,
+    surname: string,
+    gender: "male" | "female",
+    salary: number
+}
+
+export type Account = Omit<User, 'id'>
